@@ -1,0 +1,30 @@
+.calculator{
+    height: 500px;
+    width: 300px;
+    background-color: dimgray;
+    display: flex;
+    flex-direction: column;
+
+}
+.display{
+    background-color: aqua;
+    flex: 3;
+}
+.numberpad {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    flex: 5;
+    row-gap: 3px;
+}
+.buttonRow {
+    display: flex;
+    background-color: blue ;
+    flex: 1;
+    column-gap: 3px;
+}
+.button{
+    background-color: green;
+    flex: 1;
+
+}

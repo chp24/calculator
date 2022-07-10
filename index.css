@@ -9,6 +9,9 @@
 .display{
     background-color: aqua;
     flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .numberpad {
     display: flex;
@@ -22,9 +25,11 @@
     background-color: blue ;
     flex: 1;
     column-gap: 3px;
+
 }
 .button{
     background-color: green;
     flex: 1;
-
+    text-align: center;
+    line-height: 55px;
 }

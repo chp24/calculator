@@ -12,7 +12,7 @@ btn.addEventListener('click',
     }
 )*/
 
-
+/*
 let btn = document.querySelectorAll('#data-btn');
 
 btn.addEventListener('click',
@@ -23,4 +23,17 @@ btn.addEventListener('click',
         let tempNum = parseFloat(numVal) + parseFloat(btnVal);
         numVal.textContent = btn.textContent;
         }
-    )
+    )*/
+
+btns = document.getElementsByClassName("button");
+for(var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function()
+                {
+                let num = document.getElementById('num').textContent;
+                let numVal = parseFloat(num);
+                let btnVal = parseFloat(btns[i].textContent);
+                num = numVal + btnVal;
+
+                }
+        )
+}

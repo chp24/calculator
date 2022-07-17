@@ -45,3 +45,9 @@
     text-align: center;
     line-height: 55px;
 }
+#eqBtn{
+    background-color: green;
+    flex: 1;
+    text-align: center;
+    line-height: 55px;
+}

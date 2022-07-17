@@ -33,3 +33,15 @@
     text-align: center;
     line-height: 55px;
 }
+#clearBtn{
+    background-color: green;
+    flex: 1;
+    text-align: center;
+    line-height: 55px;
+}
+#addBtn{
+    background-color: green;
+    flex: 1;
+    text-align: center;
+    line-height: 55px;
+}
